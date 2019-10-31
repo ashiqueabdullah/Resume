@@ -1,0 +1,236 @@
+/* XL (Desktop,Laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.left_side #sidebar .toggle-btn{
+		visibility: hidden;
+	}
+}
+
+/*LG Device :992px. (Desktop tablet horizontal)*/
+@media (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+
+/*MD Device :768px. (Small tablet,Phone vertical)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#sidebar .toggle-btn{
+		visibility: visible;
+		background-color: white;
+	}
+	.left_side #sidebar{
+		left:-200px;
+	}
+	.right_side{
+		width: 100%;
+		height:100%;
+	}
+	.right_side #snow_fall .home_box{
+		margin: 292px 80px;
+		width: 80%;
+	}
+	.right_side #snow_fall .home_box h1{
+		font-size: 45px;
+	}
+	.right_side #snow_fall .home_box h2{
+		font-size: 23px;
+	}
+	.aboutme p{
+		font-size: 14px;
+	}
+	.aboutme h2{
+		font-size: 18px;
+	}
+	.aboutme a{
+		padding: 8px 15px 8px 15px;
+	}
+	.service .box .myico {
+	    font-size: 35px;
+	    margin: 0px 65px;
+	}
+	.testmoni h2{
+		width: 24%;
+	}
+	.clint {
+    	margin-top: 50px;
+	}.testmoni {
+    	margin-top: 50px;
+	}
+	.testmoni i.fas.fa-quote-left{
+		font-size: 36px;
+	}
+	.owl-carousel .owl-item img{
+		width: 170%;
+	}
+	.service .box{
+		padding: 5px;
+	}
+	.resume h2{
+		width: 74%;
+		margin-left: 76px;
+	}
+	.resume .box{
+		height:191px;
+	}
+	.resume .box h3{
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.resume .box p{
+		font-size: 14px;
+	}
+	.resume .full-skill-bar h2{
+		width: 100%;
+		margin-left:0px;
+	}
+	.skil-bar{
+		margin-top: 19px;
+	}
+	.filter-button-group{
+		width: 85%;
+	}
+	.fortfilo-active .hbr h1{
+		font-size:13px
+	}
+	.fortfilo-active .hbr h5{
+		font-size:12px
+	}
+	.fortfilo-active .myicon{
+		font-size: 25px;
+	}
+}
+
+
+/*SM Extra small Device. (Phone)*/
+@media (max-width: 767px) {
+	#sidebar .toggle-btn{
+		visibility: visible;
+		background-color: white;
+	}
+	.left_side #sidebar{
+		left:-200px;
+	}
+	.right_side{
+		width: 100%;
+		height:100%;
+	}
+	.right_side #snow_fall .home_box {
+	    margin: 308px 41px;
+	    width: 80%;
+	}
+	.right_side #snow_fall .home_box h1{
+		font-size: 30px;
+	}
+	.right_side #snow_fall .home_box h2{
+		font-size: 20px;
+	}
+	.aboutme .myicon{
+		float: none;
+	}
+	.right_side #snow_fall .home_box h1{
+		font-size: 45px;
+	}
+	.right_side #snow_fall .home_box h2{
+		font-size: 23px;
+	}
+	.aboutme p{
+		font-size: 14px;
+	}
+	.aboutme h2{
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.aboutme a{
+		padding: 8px 15px 8px 15px;
+	}
+	.aboutme img {
+	    height: 39px;
+		width: 100px;
+	}
+	.service h2{
+		width: 48%;
+	}
+	.service .box {
+		margin-bottom: 10px;
+	}
+	.service .box .myico {
+	    font-size: 35px;
+	   margin: 0px 118px;
+	}
+	.clint h2{
+		width: 50%;
+	}
+	.testmoni h2{
+		width: 70%;
+	}
+	.clint {
+    	margin-top: 50px;
+	}.testmoni {
+    	margin-top: 50px;
+	}
+	.testmoni i.fas.fa-quote-left{
+		font-size: 20px;
+	}
+	.testmoni .slbg p{
+		font-size: 12px;
+	}
+	.owl-carousel .owl-item img{
+		width: 35%;
+	}
+	.service .box{
+		padding: 5px;
+	}
+	.resume h2{
+		width: 74%;
+		margin-left: 76px;
+	}
+	.resume .box{
+		height:191px;
+	}
+	.resume .box h3{
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.resume .box p{
+		font-size: 14px;
+	}
+	.resume .full-skill-bar h2{
+		width: 100%;
+		margin-left:0px;
+	}
+	.skil-bar{
+		margin-top: 19px;
+	}
+	.filter-button-group {
+	    width: 100%;
+	    text-align: center;
+	}
+	.resume .myicon{
+		float: none;
+	}
+	.fortfilo-active .hbr h1{
+		font-size:13px
+	}
+	.fortfilo-active .hbr h5{
+		font-size:12px
+	}
+	.fortfilo-active .myicon{
+		font-size: 25px;
+	}
+	.contuct h1{
+		width: 60%;
+	}
+	.contuct .ctbox input[type="text"], input[type="email"]{
+		width: 100%;
+	}
+}
+
+/* SM Small Device :550px. (Phone)*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	#sidebar .toggle-btn{
+		visibility: visible;
+	}
+	.left_side #sidebar{
+		left:-200px;
+	}
+
+}
