@@ -87,6 +87,10 @@ $(document).ready(function(){
       barColor: '#00A3E1',
       duration: 1500,
     });
+   $('#bar10').barfiller({
+      barColor: '#00A3E1',
+      duration: 1500,
+    });
 });
 
 
